@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
-import { selectVisibleTodos } from "../store/selector/todos-selectors";
-import { removeTodo, toggleTodo } from "../store/action/todo-action";
+import { selectVisibleTodos } from "../store/todoSlice";
+import { removeTodo, toggleTodo } from "../store/todoSlice";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import Checkbox from "@mui/material/Checkbox";

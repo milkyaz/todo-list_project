@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { addTodo } from "../store/action/todo-action";
+import { addTodo } from "../store/todoSlice";
 import { Button, TextField } from "@mui/material";
 
 export const NewTodo = () => {
