@@ -51,6 +51,6 @@ export const { addTodo, removeTodo, toggleTodo } = todoSlice.actions;
 export const { selectAllTodos, selectVisibleTodos, selectActiveTodos } =
   todoSlice.selectors;
 
-export const store = configureStore({
+export default configureStore({
   reducer: todoSlice.reducer,
 });

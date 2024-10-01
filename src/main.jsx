@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from './App'
-import { store } from "./store/todoSlice";
+import App from "./App";
+import store from "./store/todoSlice";
 import { Provider } from "react-redux";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
